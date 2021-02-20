@@ -1,0 +1,195 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Avenir Next";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+header {
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 62px;
+  margin: 20px 10px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  transition: all 0.5s;
+}
+
+.header-right li {
+   float: left;
+}
+
+.header-right a {
+  line-height: 62px;
+  padding: 0 20px;
+  color: rgba(255, 255, 255, 0.5);
+  display: inline-block;
+}
+
+.header-right a:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.top-main {
+  width: 100%;
+  padding: 180px 0 300px 0;
+  background-image: url(img//liburan-ke-yogyakarta.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-main h1, .top-main h2 {
+  opacity: 0.8;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-main h1 {
+  font-size: 45px;
+}
+
+.top-main h2 {
+  font-size: 40px;
+}
+
+
+.body-main {
+  width: 100%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2, .heading h3 {
+  font-weight: normal;
+  text-align:center;
+}
+
+.destination {
+  float: left;
+  width: 25%;
+}
+
+.destination-icon {
+  position: relative;
+}
+
+.destination-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+}
+
+.destination-body {
+  width: 80%;
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.destination-body:hover {
+  background: white;
+  color: black;
+}
+
+.icon {
+  margin: 10px 0;
+  padding: 5px 15px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.icon:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer {
+  width: 100%;
+  background-color: #2f5167;
+  color: #fff;
+  height: 200px;
+  padding: 20px;
+}
+
+.about-submit {
+  width: 100%;
+}
+
+.about-submit p {
+  color: white;
+}
+
+.input-email {
+  margin-right: 5px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.btn-submit:hover {
+  background: white;
+  color: black;
+}
+
+.about-submit input {
+  border: 1px solid #dee7ec;
+  border-radius: 3px;
+}
